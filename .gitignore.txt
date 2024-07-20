@@ -1,0 +1,21 @@
+# Ignore build files
+*.win
+*.mac
+*.linux
+*.ios
+*.android
+*.ps4
+*.xboxone
+*.switch
+
+# Ignore temporary files
+*.temp
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore local settings
+*.local
