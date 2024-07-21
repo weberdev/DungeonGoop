@@ -34,9 +34,11 @@
   },
   "name":"Dungeon Goop",
   "resources":[
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"object_SlimePC","path":"objects/object_SlimePC/object_SlimePC.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprite_SlimePC","path":"sprites/sprite_SlimePC/sprite_SlimePC.yy",},},
+    {"id":{"name":"sprite_wall","path":"sprites/sprite_wall/sprite_wall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
