@@ -34,3 +34,19 @@ if (place_meeting(x, y + vMove, obj_wall)) {
 
 x += hMove;
 y += vMove;
+
+// Character swap logic
+if (keyboard_check_pressed(vk_space)) {
+    // Save current position of Remnant
+    global.remnant_x = x;
+    global.remnant_y = y;
+    
+    // Ensure obj_SlimePC is defined and exists
+    if (object_exists(obj_SlimePC)) {
+        // Swap to Slime and change room
+        global.active_character = obj_SlimePC;
+        room_goto(room_slime);
+    } else {
+        show_debug_message("Error: obj_SlimePC does not exist.");
+    }
+}
