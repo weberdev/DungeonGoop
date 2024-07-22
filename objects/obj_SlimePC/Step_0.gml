@@ -1,39 +1,37 @@
 // Declare movement variables
-var moveSpeed = 4;
+var tile_size = 64; // Size of each tile
 var hMove = 0;
 var vMove = 0;
 
 // Check for horizontal movement
-if (keyboard_check(vk_left)) {
-    hMove = -1;
-} else if (keyboard_check(vk_right)) {
-    hMove = 1;
-}
+if (!isMoving) {
+    if (keyboard_check_pressed(vk_left)) {
+        hMove = -tile_size;
+    } else if (keyboard_check_pressed(vk_right)) {
+        hMove = tile_size;
+    }
 
-// Check for vertical movement
-if (keyboard_check(vk_up)) {
-    vMove = -1;
-} else if (keyboard_check(vk_down)) {
-    vMove = 1;
-}
+    // Check for vertical movement
+    if (keyboard_check_pressed(vk_up)) {
+        vMove = -tile_size;
+    } else if (keyboard_check_pressed(vk_down)) {
+        vMove = tile_size;
+    }
 
-// Normalize movement vector
-var moveLength = point_distance(0, 0, hMove, vMove);
-if (moveLength != 0) {
-    hMove = (hMove / moveLength) * moveSpeed;
-    vMove = (vMove / moveLength) * moveSpeed;
-}
+    // Check if movement is attempted
+    if (hMove != 0 || vMove != 0) {
+        var newX = x + hMove;
+        var newY = y + vMove;
 
-// Apply movement with collision checking
-if (place_meeting(x + hMove, y, obj_wall)) {
-    hMove = 0;
+        // Apply movement with collision checking
+        if (!place_meeting(newX, y, obj_wall)) {
+            x = newX;
+        }
+        if (!place_meeting(x, newY, obj_wall)) {
+            y = newY;
+        }
+    }
 }
-if (place_meeting(x, y + vMove, obj_wall)) {
-    vMove = 0;
-}
-
-x += hMove;
-y += vMove;
 
 // Character swap logic
 if (keyboard_check_pressed(vk_space)) {
