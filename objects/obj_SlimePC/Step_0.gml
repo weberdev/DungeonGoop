@@ -1,10 +1,10 @@
-// Declare movement variables
-var tile_size = 64; // Size of each tile
-var hMove = 0;
-var vMove = 0;
+// Step Event
 
-// Check for horizontal movement
 if (!isMoving) {
+    var hMove = 0;
+    var vMove = 0;
+    
+    // Check for horizontal movement
     if (keyboard_check_pressed(vk_left)) {
         hMove = -tile_size;
     } else if (keyboard_check_pressed(vk_right)) {
@@ -25,16 +25,40 @@ if (!isMoving) {
 
         // Apply movement with collision checking
         if (!place_meeting(newX, y, obj_wall)) {
-            x = newX;
+            moveX = newX;
+            isMoving = true;
         }
         if (!place_meeting(x, newY, obj_wall)) {
-            y = newY;
+            moveY = newY;
+            isMoving = true;
         }
+    }
+} else {
+    // Move towards the destination coordinates smoothly
+    if (x < moveX) {
+        x += moveSpeed;
+        if (x > moveX) x = moveX;  // Correct overshoot
+    } else if (x > moveX) {
+        x -= moveSpeed;
+        if (x < moveX) x = moveX;
+    }
+
+    if (y < moveY) {
+        y += moveSpeed;
+        if (y > moveY) y = moveY;
+    } else if (y > moveY) {
+        y -= moveSpeed;
+        if (y < moveY) y = moveY;
+    }
+
+    // Stop moving if destination is reached
+    if (x == moveX && y == moveY) {
+        isMoving = false;
     }
 }
 
 // Character swap logic
-if (keyboard_check_pressed(vk_space)) {
+if (keyboard_check_pressed(vk_space) && !isMoving) {
     // Save current position of Slime
     global.slime_x = x;
     global.slime_y = y;
