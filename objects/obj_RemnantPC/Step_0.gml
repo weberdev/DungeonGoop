@@ -54,11 +54,6 @@ if (!isMoving) {
     }
 }
 
-// Function to handle digestion
-function digest() {
-    show_debug_message("digested");
-}
-
 
 
 // Character swap logic
