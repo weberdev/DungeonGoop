@@ -1,6 +1,9 @@
-// Create Event
-tile_size = 64;  // Size of each tile
-isMoving = false;  // Initialize as not moving
-moveX = x;  // Set initial destination to current position
-moveY = y;  // Set initial destination to current position
-moveSpeed = 4;  // Speed of movement
+// Create Event of obj_SlimePC
+tile_size = 64;
+isMoving = false;
+moveX = x;
+moveY = y;
+last_x = x;
+last_y = y;
+moveSpeed = 4;
+active_item = ""; // Initialize as no active item
