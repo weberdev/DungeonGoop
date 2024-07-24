@@ -54,6 +54,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"room_remnant","path":"rooms/room_remnant/room_remnant.yy",},},
     {"id":{"name":"room_slime","path":"rooms/room_slime/room_slime.yy",},},
+    {"id":{"name":"room_titleScreen","path":"rooms/room_titleScreen/room_titleScreen.yy",},},
     {"id":{"name":"lib_horrifi","path":"scripts/lib_horrifi/lib_horrifi.yy",},},
     {"id":{"name":"scr_action","path":"scripts/scr_action/scr_action.yy",},},
     {"id":{"name":"scr_charswitch","path":"scripts/scr_charswitch/scr_charswitch.yy",},},
@@ -82,6 +83,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room_slime","path":"rooms/room_slime/room_slime.yy",},},
     {"roomId":{"name":"room_remnant","path":"rooms/room_remnant/room_remnant.yy",},},
+    {"roomId":{"name":"room_titleScreen","path":"rooms/room_titleScreen/room_titleScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
