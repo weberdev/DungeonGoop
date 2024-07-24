@@ -46,9 +46,9 @@
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Tiles_Walls","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":22,"TileCompressedData":[
-          1,2,-3,75,4,76,75,75,4,-14,-2147483648,1,26,-3,99,4,100,99,99,26,-14,-2147483648,1,26,-21,-2147483648,
-          1,26,-21,-2147483648,1,26,-21,-2147483648,1,26,-6,-2147483648,1,26,-14,-2147483648,-8,75,-14,-2147483648,
-          -8,99,-102,-2147483648,
+          1,2,-3,75,4,76,75,75,4,-14,-2147483648,1,26,-3,99,4,100,99,99,26,-14,-2147483648,1,26,-6,-2147483648,
+          2,50,28,-13,-2147483648,1,26,-21,-2147483648,1,26,-6,-2147483648,2,2,28,-13,-2147483648,1,26,-6,-2147483648,
+          1,26,-14,-2147483648,-8,75,-14,-2147483648,-8,99,-102,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tileset_DungeonTiles","path":"tilesets/tileset_DungeonTiles/tileset_DungeonTiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
