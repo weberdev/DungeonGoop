@@ -29,36 +29,52 @@ if (!isMoving && global.active_character == obj_SlimePC) {
             default:
                 break;
         }
-        show_debug_message(active_item);
         instance_destroy(item_instance);
     }
 
-    // Update movement
+    // Check for horizontal movement
     if (keyboard_check_pressed(vk_left)) {
         hMove = -tile_size;
     } else if (keyboard_check_pressed(vk_right)) {
         hMove = tile_size;
     }
 
+    // Check for vertical movement
     if (keyboard_check_pressed(vk_up)) {
         vMove = -tile_size;
     } else if (keyboard_check_pressed(vk_down)) {
         vMove = tile_size;
     }
 
+    // Check if movement is attempted
     if (hMove != 0 || vMove != 0) {
         var newX = x + hMove;
         var newY = y + vMove;
 
+        // Update last position before moving
+        last_x = x;
+        last_y = y;
+
+        // Update facing direction
+        if (hMove != 0) {
+            facing_x = sign(hMove);
+            facing_y = 0;  // Reset vertical facing if moving horizontally
+        }
+        if (vMove != 0) {
+            facing_y = sign(vMove);
+            facing_x = 0;  // Reset horizontal facing if moving vertically
+        }
+
+        // Calculate the coordinates the character is facing
+        facing_tile_x = x + (facing_x * tile_size);
+        facing_tile_y = y + (facing_y * tile_size);
+
+        // Apply movement with collision checking
         if (!place_meeting(newX, y, obj_collidableParent)) {
-            last_x = x;
-            last_y = y;
             moveX = newX;
             isMoving = true;
         }
         if (!place_meeting(x, newY, obj_collidableParent)) {
-            last_x = x;
-            last_y = y;
             moveY = newY;
             isMoving = true;
         }
@@ -84,3 +100,7 @@ if (!isMoving && global.active_character == obj_SlimePC) {
         isMoving = false;
     }
 }
+
+//Debugging facing coordinates
+//Commented out if needed again.
+//show_debug_message("Facing coordinates: " + string(facing_tile_x) + ", " + string(facing_tile_y));

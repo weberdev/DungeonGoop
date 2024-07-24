@@ -28,17 +28,30 @@ if (!isMoving && global.active_character == obj_RemnantPC) {
         last_y = y;
 
         // Apply movement with collision checking
-        if (!place_meeting(newX, y, obj_collidableParent) && !place_meeting(x, newY, obj_collidableParent)) {
+        if (!place_meeting(newX, y, obj_collidableParent)) {
             moveX = newX;
-            moveY = newY;
+            // Set facing direction based on horizontal movement
+            facing_x = (hMove != 0) ? sign(hMove) : facing_x;
+            facing_y = 0; // Reset vertical facing if moving horizontally
             isMoving = true;
         }
+        if (!place_meeting(x, newY, obj_collidableParent)) {
+            moveY = newY;
+            // Set facing direction based on vertical movement
+            facing_y = (vMove != 0) ? sign(vMove) : facing_y;
+            facing_x = 0; // Reset horizontal facing if moving vertically
+            isMoving = true;
+        }
+
+        // Calculate the coordinates the character is facing
+        facing_tile_x = x + (facing_x * tile_size);
+        facing_tile_y = y + (facing_y * tile_size);
     }
 } else {
     // Move towards the destination coordinates smoothly
     if (x < moveX) {
         x += moveSpeed;
-        if (x > moveX) x = moveX;
+        if (x > moveX) x = moveX;  // Correct overshoot
     } else if (x > moveX) {
         x -= moveSpeed;
         if (x < moveX) x = moveX;
@@ -57,3 +70,7 @@ if (!isMoving && global.active_character == obj_RemnantPC) {
         isMoving = false;
     }
 }
+
+// Debugging facing coordinates
+//Again, commented out in case needed again.
+//show_debug_message("Remnant Facing coordinates: " + string(facing_tile_x) + ", " + string(facing_tile_y));
