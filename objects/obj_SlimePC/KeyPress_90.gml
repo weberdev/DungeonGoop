@@ -25,6 +25,11 @@ if (global.active_character == obj_SlimePC) {
                 x = next_tile_x;
                 y = next_tile_y;
                 show_debug_message("Squeezed through to the next tile!");
+
+                // Reset movement variables to ensure the character is at rest
+                moveX = x;
+                moveY = y;
+                isMoving = false;
             } else {
                 show_debug_message("The next tile is blocked!");
             }
