@@ -22,8 +22,13 @@ if (!isMoving && global.active_character == obj_RemnantPC) {
     if (hMove != 0 || vMove != 0) {
         var newX = x + hMove;
         var newY = y + vMove;
+
+        // Update last position before moving
+        last_x = x;
+        last_y = y;
+
         // Apply movement with collision checking
-        if (!place_meeting(newX, y, obj_wall) && !place_meeting(x, newY, obj_wall)) {
+        if (!place_meeting(newX, y, obj_collidableParent) && !place_meeting(x, newY, obj_collidableParent)) {
             moveX = newX;
             moveY = newY;
             isMoving = true;
@@ -33,7 +38,7 @@ if (!isMoving && global.active_character == obj_RemnantPC) {
     // Move towards the destination coordinates smoothly
     if (x < moveX) {
         x += moveSpeed;
-        if (x > moveX) x = moveX;  // Correct overshoot
+        if (x > moveX) x = moveX;
     } else if (x > moveX) {
         x -= moveSpeed;
         if (x < moveX) x = moveX;
