@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"License",
+  "name":"License",
+  "parent":{
+    "name":"About",
+    "path":"folders/Horri-fi/About.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

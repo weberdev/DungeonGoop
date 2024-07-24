@@ -1,9 +1,8 @@
-// Step Event
+// Step Event for obj_SlimePC
 
-if (!isMoving) {
+if (!isMoving && global.active_character == obj_SlimePC) {
     var hMove = 0;
     var vMove = 0;
-    
     // Check for horizontal movement
     if (keyboard_check_pressed(vk_left)) {
         hMove = -tile_size;
@@ -57,18 +56,3 @@ if (!isMoving) {
     }
 }
 
-// Character swap logic
-if (keyboard_check_pressed(vk_space) && !isMoving) {
-    // Save current position of Slime
-    global.slime_x = x;
-    global.slime_y = y;
-    
-    // Ensure obj_RemnantPC is defined and exists
-    if (object_exists(obj_RemnantPC)) {
-        // Swap to Remnant and change room
-        global.active_character = obj_RemnantPC;
-        room_goto(room_remnant);
-    } else {
-        show_debug_message("Error: obj_RemnantPC does not exist.");
-    }
-}

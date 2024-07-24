@@ -1,9 +1,9 @@
-// Step Event
+// Step Event for obj_RemnantPC
 
-if (!isMoving) {
+if (!isMoving && global.active_character == obj_RemnantPC) {
     var hMove = 0;
     var vMove = 0;
-    
+
     // Check for horizontal movement
     if (keyboard_check_pressed(vk_left)) {
         hMove = -tile_size;
@@ -22,7 +22,6 @@ if (!isMoving) {
     if (hMove != 0 || vMove != 0) {
         var newX = x + hMove;
         var newY = y + vMove;
-
         // Apply movement with collision checking
         if (!place_meeting(newX, y, obj_wall) && !place_meeting(x, newY, obj_wall)) {
             moveX = newX;
@@ -51,23 +50,5 @@ if (!isMoving) {
     // Stop moving if destination is reached
     if (x == moveX && y == moveY) {
         isMoving = false;
-    }
-}
-
-
-
-// Character swap logic
-if (keyboard_check_pressed(vk_space) && !isMoving) {
-    // Save current position of Remnant
-    global.remnant_x = x;
-    global.remnant_y = y;
-    
-    // Ensure obj_SlimePC is defined and exists
-    if (object_exists(obj_SlimePC)) {
-        // Swap to Slime and change room
-        global.active_character = obj_SlimePC;
-        room_goto(room_slime);
-    } else {
-        show_debug_message("Error: obj_SlimePC does not exist.");
     }
 }
