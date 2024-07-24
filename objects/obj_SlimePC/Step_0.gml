@@ -70,11 +70,11 @@ if (!isMoving && global.active_character == obj_SlimePC) {
         facing_tile_y = y + (facing_y * tile_size);
 
         // Apply movement with collision checking
-        if (!place_meeting(newX, y, obj_collidableParent)) {
+        if (!place_meeting(newX, y, obj_collidableParent)||(active_item== "" && place_meeting(newX, y, obj_grate))) {
             moveX = newX;
             isMoving = true;
         }
-        if (!place_meeting(x, newY, obj_collidableParent)) {
+        if (!place_meeting(x, newY, obj_collidableParent)||(active_item== "" && place_meeting(x, newY, obj_grate))) {
             moveY = newY;
             isMoving = true;
         }

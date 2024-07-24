@@ -9,6 +9,6 @@ if (global.active_character == obj_SlimePC) {
             show_debug_message("Error: Facing coordinates are undefined or not numbers");
         }
     } else {
-        show_debug_message("Used empty tummy");
+        show_debug_message("Used empty tummy, can we squeeze?");
     }
 }
