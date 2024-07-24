@@ -35,54 +35,43 @@ if (!isMoving && global.active_character == obj_SlimePC) {
     // Check for horizontal movement
     if (keyboard_check_pressed(vk_left)) {
         hMove = -tile_size;
+        facing_x = -1;
+        facing_y = 0;
     } else if (keyboard_check_pressed(vk_right)) {
         hMove = tile_size;
+        facing_x = 1;
+        facing_y = 0;
     }
 
     // Check for vertical movement
     if (keyboard_check_pressed(vk_up)) {
         vMove = -tile_size;
+        facing_y = -1;
+        facing_x = 0;
     } else if (keyboard_check_pressed(vk_down)) {
         vMove = tile_size;
+        facing_y = 1;
+        facing_x = 0;
     }
 
-    // Check if movement is attempted
-    if (hMove != 0 || vMove != 0) {
-        var newX = x + hMove;
-        var newY = y + vMove;
+    // Calculate facing tile coordinates
+    facing_tile_x = x + (facing_x * tile_size);
+    facing_tile_y = y + (facing_y * tile_size);
 
-        // Update last position before moving
-        last_x = x;
-        last_y = y;
-
-        // Update facing direction
-        if (hMove != 0) {
-            facing_x = sign(hMove);
-            facing_y = 0;  // Reset vertical facing if moving horizontally
-        }
-        if (vMove != 0) {
-            facing_y = sign(vMove);
-            facing_x = 0;  // Reset horizontal facing if moving vertically
-        }
-
-        // Calculate the coordinates the character is facing
-        facing_tile_x = x + (facing_x * tile_size);
-        facing_tile_y = y + (facing_y * tile_size);
-
-        // Apply movement with collision checking
-        if (!place_meeting(newX, y, obj_collidableParent)||(active_item== "" && place_meeting(newX, y, obj_grate))) {
-            moveX = newX;
-            isMoving = true;
-        }
-        if (!place_meeting(x, newY, obj_collidableParent)||(active_item== "" && place_meeting(x, newY, obj_grate))) {
-            moveY = newY;
-            isMoving = true;
-        }
+    // Apply movement with collision checking
+    if (hMove != 0 && !place_meeting(x + hMove, y, obj_collidableParent)) {
+        moveX = x + hMove;
+        isMoving = true;
+    }
+    if (vMove != 0 && !place_meeting(x, y + vMove, obj_collidableParent)) {
+        moveY = y + vMove;
+        isMoving = true;
     }
 } else {
+    // Handle smooth movement towards destination
     if (x < moveX) {
         x += moveSpeed;
-        if (x > moveX) x = moveX;
+        if (x > moveX) x = moveX;  // Correct overshoot
     } else if (x > moveX) {
         x -= moveSpeed;
         if (x < moveX) x = moveX;
@@ -96,11 +85,9 @@ if (!isMoving && global.active_character == obj_SlimePC) {
         if (y < moveY) y = moveY;
     }
 
+    // Stop moving if destination is reached
     if (x == moveX && y == moveY) {
         isMoving = false;
     }
 }
 
-//Debugging facing coordinates
-//Commented out if needed again.
-//show_debug_message("Facing coordinates: " + string(facing_tile_x) + ", " + string(facing_tile_y));

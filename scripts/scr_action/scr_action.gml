@@ -1,12 +1,8 @@
-function scr_slimeAction(xCoord, yCoord, lastXCoord, lastYCoord, itemName) {
+function scr_slimeAction(facing_x, facing_y, itemName) {
     show_debug_message("Action with: " + itemName);
     switch(itemName) {
         case "flame":
-            if (object_exists(obj_elemFlame)) {
-                instance_create_depth(xCoord, yCoord, 1, obj_elemFlame);
-            } else {
-                show_debug_message("Error: obj_elemFlame does not exist.");
-            }
+            
             break;
         case "rock":
             if (object_exists(obj_elemRock)) {
