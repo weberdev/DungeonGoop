@@ -5,3 +5,5 @@ obj_RemnantPC.active_trait = active_item;
 show_debug_message("Digested " + active_item);
 active_item = "";
 sprite_index = sprite_SlimePC;}
+else{
+	show_debug_message("Digested nothing: empty tummy");}
