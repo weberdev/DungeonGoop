@@ -38,10 +38,12 @@ function scr_slimeAction(facing_x, facing_y, itemName) {
                 if (move_enabled) {
                     move_enabled = false;
                     is_immune_crush = true;
+					obj_SlimePC.sprite_index = sprite_TEMPslimePCrock;
                     show_debug_message("Hardened, can't move");
                 } else {
                     move_enabled = true;
                     is_immune_crush = false;
+					obj_SlimePC.sprite_index = sprite_slimePCStone;
                     show_debug_message("Unhardened, can move");
                 }
                 break;

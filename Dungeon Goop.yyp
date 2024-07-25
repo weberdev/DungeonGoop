@@ -88,6 +88,7 @@
     {"id":{"name":"sprite_slimePCRock","path":"sprites/sprite_slimePCRock/sprite_slimePCRock.yy",},},
     {"id":{"name":"sprite_slimePCStone","path":"sprites/sprite_slimePCStone/sprite_slimePCStone.yy",},},
     {"id":{"name":"sprite_slimePCWater","path":"sprites/sprite_slimePCWater/sprite_slimePCWater.yy",},},
+    {"id":{"name":"sprite_TEMPslimePCrock","path":"sprites/sprite_TEMPslimePCrock/sprite_TEMPslimePCrock.yy",},},
     {"id":{"name":"sprite_wall","path":"sprites/sprite_wall/sprite_wall.yy",},},
     {"id":{"name":"tileset_DungeonTiles","path":"tilesets/tileset_DungeonTiles/tileset_DungeonTiles.yy",},},
   ],
