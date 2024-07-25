@@ -9,7 +9,8 @@
 //QED
 
 function scr_discarditem(xCoord, yCoord, itemName) {
-    show_debug_message("Discarding item: " + itemName);
+    if(obj_SlimePC.move_enabled){
+	show_debug_message("Discarding item: " + itemName);
     switch(itemName) {
         case "flame":
             if (object_exists(obj_elemFlame)) {
@@ -37,4 +38,5 @@ function scr_discarditem(xCoord, yCoord, itemName) {
             show_debug_message("Error: Unknown item type.");
             break;
     }
+	}
 }
