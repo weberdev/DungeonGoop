@@ -64,6 +64,7 @@
     {"id":{"name":"scr_charswitch","path":"scripts/scr_charswitch/scr_charswitch.yy",},},
     {"id":{"name":"scr_discarditem","path":"scripts/scr_discarditem/scr_discarditem.yy",},},
     {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
+    {"id":{"name":"scr_manifest","path":"scripts/scr_manifest/scr_manifest.yy",},},
     {"id":{"name":"shd_horrifi","path":"shaders/shd_horrifi/shd_horrifi.yy",},},
     {"id":{"name":"sprite_bootle","path":"sprites/sprite_bootle/sprite_bootle.yy",},},
     {"id":{"name":"sprite_bossDoor","path":"sprites/sprite_bossDoor/sprite_bossDoor.yy",},},
