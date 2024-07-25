@@ -58,6 +58,12 @@ if (!isMoving && global.active_character == obj_SlimePC) {
     facing_tile_x = x + (facing_x * tile_size);
     facing_tile_y = y + (facing_y * tile_size);
 
+    // Update last_x and last_y before moving
+    if (hMove != 0 || vMove != 0) {
+        last_x = x;
+        last_y = y;
+    }
+
     // Apply movement with collision checking
     if (hMove != 0 && !place_meeting(x + hMove, y, obj_collidableParent)) {
         moveX = x + hMove;
@@ -90,4 +96,3 @@ if (!isMoving && global.active_character == obj_SlimePC) {
         isMoving = false;
     }
 }
-

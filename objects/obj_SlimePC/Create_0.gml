@@ -11,3 +11,4 @@ facing_x = 0;  // Initialize facing direction as neutral
 facing_y = 0;  
 facing_tile_x = 0;
 facing_tile_y = 0;
+has_key = false;
