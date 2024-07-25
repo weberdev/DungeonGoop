@@ -34,10 +34,21 @@ function scr_slimeAction(facing_x, facing_y, itemName) {
                 }
                 break;
             case "water":
-                if (object_exists(obj_elemWater)) {
-                    instance_create_depth(facing_x, facing_y, 1, obj_elemWater);
+                if (obj_SlimePC.facing_x != 0) {
+                    // Slime is facing horizontally
+                    for (var i = 0; i < water_range; i++) {
+                        var targeted_coord = x + (i * tile_size * obj_SlimePC.facing_x);
+                        water_action(targeted_coord, y);    
+                    }
+                } else if (obj_SlimePC.facing_y != 0) {
+                    // Slime is facing vertically
+                    for (var i = 0; i < water_range; i++) {
+                        var targeted_coord = y + (i * tile_size * obj_SlimePC.facing_y);
+                        water_action(x, targeted_coord);    
+                    }
                 } else {
-                    show_debug_message("Error: obj_elemWater does not exist.");
+                    show_debug_message("Slime is facing itself somehow");
+                    show_debug_message("Assume error or slime has just spawned");
                 }
                 break;
             default:
