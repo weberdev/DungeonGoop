@@ -1,5 +1,5 @@
 // Step Event for obj_SlimePC
-if (!isMoving && global.active_character == obj_SlimePC) {
+if(move_enabled){if (!isMoving && global.active_character == obj_SlimePC) {
     var hMove = 0;
     var vMove = 0;
 
@@ -68,4 +68,5 @@ if (!isMoving && global.active_character == obj_SlimePC) {
     if (x == moveX && y == moveY) {
         isMoving = false;
     }
+}
 }

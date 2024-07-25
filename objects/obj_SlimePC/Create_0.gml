@@ -12,7 +12,7 @@ facing_y = 0;
 facing_tile_x = 0;
 facing_tile_y = 0;
 num_keys = 0;
-is_picking_up = false;
+move_enabled = true;
 
 //Properties of Slime:
 weight = 1;
