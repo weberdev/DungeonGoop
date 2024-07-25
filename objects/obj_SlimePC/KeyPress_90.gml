@@ -2,7 +2,7 @@
 if (global.active_character == obj_SlimePC) {
     if (active_item != "") {
         show_debug_message("Used " + active_item);
-        scr_slimeAction(facing_tile_x, facing_tile_y, active_item);
+        scr_slimeAction(active_item);
     } else {
         show_debug_message("Used empty tummy, can we squeeze?");
         //show_debug_message("Targeting facing coordinates " + string(facing_tile_x) + ", " + string(facing_tile_y));
