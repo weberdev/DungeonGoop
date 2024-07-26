@@ -12,23 +12,8 @@ function scr_slimeAction(itemName) {
             
                 break;
             case "water":
-                if (obj_SlimePC.facing_x != 0) {
-                    // Slime is facing horizontally
-                    for (var i = 0; i < water_range; i++) {
-                        var targeted_coord = x + (i * tile_size * obj_SlimePC.facing_x);
-                        water_action(targeted_coord, y);    
-                    }
-                } else if (obj_SlimePC.facing_y != 0) {
-                    // Slime is facing vertically
-                    for (var i = 0; i < water_range; i++) {
-                        var targeted_coord = y + (i * tile_size * obj_SlimePC.facing_y);
-                        water_action(x, targeted_coord);    
-                    }
-                } else {
-                    show_debug_message("Slime is facing itself somehow");
-                    show_debug_message("Assume error or slime has just spawned");
-                }
-                break;
+			scr_actionWATER()
+			break;
             default:
                 show_debug_message("Error: Unknown item type.");
                 break;
