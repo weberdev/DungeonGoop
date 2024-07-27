@@ -1,4 +1,5 @@
 speed = 0;
+image_speed = 2;
 // Determine the direction based on the slime's facing direction
 //the maintainer who faced the issue
 //was me
