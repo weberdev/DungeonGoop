@@ -6,7 +6,7 @@ var current_datetime = date_current_datetime();
 global.swap_cooldown = date_get_second(current_datetime);
 
 // Set the active character
-global.active_character = obj_SlimePC;
+global.active_character = obj_pcSlime;
 
 // Initialize positions
 global.slime_x = 64;

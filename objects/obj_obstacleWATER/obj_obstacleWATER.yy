@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstacleWATER",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_SlimePC","path":"objects/obj_SlimePC/obj_SlimePC.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_obstacleWater",
+  "eventList":[],
   "managed":true,
-  "name":"obj_obstacleWATER",
+  "name":"obj_obstacleWater",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
