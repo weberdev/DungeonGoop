@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"sprite_DampDungeonsDecor",
+  "%Name":"sprite_DampDungeonsWater",
   "bboxMode":0,
-  "bbox_bottom":2047,
+  "bbox_bottom":383,
   "bbox_left":0,
-  "bbox_right":2047,
+  "bbox_right":575,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8e09650a-8153-49ff-a4fc-b3827739aabf","name":"8e09650a-8153-49ff-a4fc-b3827739aabf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9922eaa5-61c4-4959-96df-9ff01622ca64","name":"9922eaa5-61c4-4959-96df-9ff01622ca64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":2048,
+  "height":384,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"45f8d21a-20c1-467a-bc4f-1c8ad6ac2314","blendMode":0,"displayName":"default","isLocked":false,"name":"45f8d21a-20c1-467a-bc4f-1c8ad6ac2314","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a00a5b2b-38f4-4bb4-a950-e025bc5e23b9","blendMode":0,"displayName":"default","isLocked":false,"name":"a00a5b2b-38f4-4bb4-a950-e025bc5e23b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sprite_DampDungeonsDecor",
+  "name":"sprite_DampDungeonsWater",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sprite_DampDungeonsDecor",
+    "%Name":"sprite_DampDungeonsWater",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sprite_DampDungeonsDecor",
+    "name":"sprite_DampDungeonsWater",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e09650a-8153-49ff-a4fc-b3827739aabf","path":"sprites/sprite_DampDungeonsDecor/sprite_DampDungeonsDecor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d1aa8d57-10da-4ecf-8163-776c8b674598","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9922eaa5-61c4-4959-96df-9ff01622ca64","path":"sprites/sprite_DampDungeonsWater/sprite_DampDungeonsWater.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21de72d8-c0f7-4b67-bd43-de8e4c0935bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2048,
+  "width":576,
 }
