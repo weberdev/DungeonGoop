@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprite_DampDungeonsWallsAndFloors",
   "bboxMode":0,
-  "bbox_bottom":2047,
+  "bbox_bottom":1471,
   "bbox_left":0,
   "bbox_right":383,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"925f5a2b-49fa-4315-a44c-e1f03c05d6d7","name":"925f5a2b-49fa-4315-a44c-e1f03c05d6d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0f9f172b-62e9-4cbd-97a5-4b39fd0629f7","name":"0f9f172b-62e9-4cbd-97a5-4b39fd0629f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2048,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"eb282eff-37e3-4ef6-8f6a-10bf12a869dd","blendMode":0,"displayName":"default","isLocked":false,"name":"eb282eff-37e3-4ef6-8f6a-10bf12a869dd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0aa6e98a-f1c1-4610-87cb-b07acba74e0b","blendMode":0,"displayName":"default","isLocked":false,"name":"0aa6e98a-f1c1-4610-87cb-b07acba74e0b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprite_DampDungeonsWallsAndFloors",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"925f5a2b-49fa-4315-a44c-e1f03c05d6d7","path":"sprites/sprite_DampDungeonsWallsAndFloors/sprite_DampDungeonsWallsAndFloors.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d153c07-d64d-4907-a03d-643b03e87a74","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f9f172b-62e9-4cbd-97a5-4b39fd0629f7","path":"sprites/sprite_DampDungeonsWallsAndFloors/sprite_DampDungeonsWallsAndFloors.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7429a7cd-159b-430d-a763-cbf963dd9346","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

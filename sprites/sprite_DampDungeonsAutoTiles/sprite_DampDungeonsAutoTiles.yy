@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"13c9e731-9006-451a-bb24-9aef301a3854","name":"13c9e731-9006-451a-bb24-9aef301a3854","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f03b0317-6a0d-4ddd-8f21-3fe311864071","name":"f03b0317-6a0d-4ddd-8f21-3fe311864071","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":960,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e86e0b71-1f60-42de-a49c-49c7eff3b197","blendMode":0,"displayName":"default","isLocked":false,"name":"e86e0b71-1f60-42de-a49c-49c7eff3b197","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e923f57c-9e51-47ae-8a47-88e7596423b5","blendMode":0,"displayName":"default","isLocked":false,"name":"e923f57c-9e51-47ae-8a47-88e7596423b5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprite_DampDungeonsAutoTiles",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"13c9e731-9006-451a-bb24-9aef301a3854","path":"sprites/sprite_DampDungeonsAutoTiles/sprite_DampDungeonsAutoTiles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cde5e5fb-a0ed-41c8-9ff5-f77a50745036","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f03b0317-6a0d-4ddd-8f21-3fe311864071","path":"sprites/sprite_DampDungeonsAutoTiles/sprite_DampDungeonsAutoTiles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38f88b0e-c25d-437d-863b-6646535d2008","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

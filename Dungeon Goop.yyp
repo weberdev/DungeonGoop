@@ -70,6 +70,7 @@
     {"id":{"name":"obj_pcRemnant","path":"objects/obj_pcRemnant/obj_pcRemnant.yy",},},
     {"id":{"name":"obj_pcSlime","path":"objects/obj_pcSlime/obj_pcSlime.yy",},},
     {"id":{"name":"obj_remnantRender","path":"objects/obj_remnantRender/obj_remnantRender.yy",},},
+    {"id":{"name":"room_level_1","path":"rooms/room_level_1/room_level_1.yy",},},
     {"id":{"name":"room_remnant","path":"rooms/room_remnant/room_remnant.yy",},},
     {"id":{"name":"room_slime","path":"rooms/room_slime/room_slime.yy",},},
     {"id":{"name":"room_titleScreen","path":"rooms/room_titleScreen/room_titleScreen.yy",},},
@@ -131,6 +132,7 @@
     {"id":{"name":"tileset_DampDungeonsDecor","path":"tilesets/tileset_DampDungeonsDecor/tileset_DampDungeonsDecor.yy",},},
     {"id":{"name":"tileset_DampDungeonsWallsAndFLoors","path":"tilesets/tileset_DampDungeonsWallsAndFLoors/tileset_DampDungeonsWallsAndFLoors.yy",},},
     {"id":{"name":"tileset_DungeonTiles","path":"tilesets/tileset_DungeonTiles/tileset_DungeonTiles.yy",},},
+    {"id":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -138,6 +140,7 @@
     {"roomId":{"name":"room_slime","path":"rooms/room_slime/room_slime.yy",},},
     {"roomId":{"name":"room_remnant","path":"rooms/room_remnant/room_remnant.yy",},},
     {"roomId":{"name":"room_titleScreen","path":"rooms/room_titleScreen/room_titleScreen.yy",},},
+    {"roomId":{"name":"room_level_1","path":"rooms/room_level_1/room_level_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
