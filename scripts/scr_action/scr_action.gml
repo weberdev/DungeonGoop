@@ -28,7 +28,7 @@ function fire_action(xCoord, yCoord) {
     var instance_found = instance_position(xCoord, yCoord, obj_collidableParent);
     if (instance_found != noone) {
         if (instance_found.is_flammable) {
-            instance_destroy(instance_found);
+            //instance_destroy(instance_found);
         }
     }
 }

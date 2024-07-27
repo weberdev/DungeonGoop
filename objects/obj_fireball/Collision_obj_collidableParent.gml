@@ -1,2 +1,5 @@
 /// @description Insert description here
-instance_destroy();
+
+if(other.is_flammable){
+	instance_destroy(other);}
+instance_destroy()
