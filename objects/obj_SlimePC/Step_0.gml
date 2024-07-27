@@ -1,4 +1,5 @@
 // Step Event for obj_SlimePC
+scr_setSlimeTraits(obj_SlimePC.active_item);
 if(move_enabled){if (!isMoving && global.active_character == obj_SlimePC) {
     var hMove = 0;
     var vMove = 0;

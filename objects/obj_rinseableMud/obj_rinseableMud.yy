@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wave",
+  "%Name":"obj_rinseableMud",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_wave","path":"objects/obj_wave/obj_wave.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_collidableParent","path":"objects/obj_collidableParent/obj_collidableParent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_wave",
+  "name":"obj_rinseableMud",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_collidableParent",
+    "path":"objects/obj_collidableParent/obj_collidableParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_effectWave",
-    "path":"sprites/sprite_effectWave/sprite_effectWave.yy",
+    "name":"sprite_rinseableMud",
+    "path":"sprites/sprite_rinseableMud/sprite_rinseableMud.yy",
   },
   "spriteMaskId":null,
   "visible":true,

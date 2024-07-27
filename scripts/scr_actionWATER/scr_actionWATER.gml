@@ -3,7 +3,7 @@
 function scr_actionWATER(){
 if (obj_SlimePC.facing_x != 0) {
         // Slime is facing horizontally
-        var wave = instance_create_layer(obj_SlimePC.x+32, obj_SlimePC.y+32, "Instances", obj_wave);
+        var wave = instance_create_layer(obj_SlimePC.x+32, obj_SlimePC.y+32, "Projectile_instances", obj_wave);
         wave.direction = obj_SlimePC.facing_x == 1 ? 0 : 180; // Right or Left
 		show_debug_message(string(wave.direction));
         wave.speed = 0; // Set the speed of the wave
@@ -19,7 +19,7 @@ if (obj_SlimePC.facing_x != 0) {
         }
     } else if (obj_SlimePC.facing_y != 0) {
         // Slime is facing vertically
-        var wave = instance_create_layer(obj_SlimePC.x+32, obj_SlimePC.y+32, "Instances", obj_wave);
+        var wave = instance_create_layer(obj_SlimePC.x+32, obj_SlimePC.y+32, "Projectile_instances", obj_wave);
         wave.direction = obj_SlimePC.facing_y == 1 ? 270 : 90; // Down or Up
         wave.speed = 0; // Set the speed of the wave
 
