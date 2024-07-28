@@ -3,3 +3,4 @@
 weight = 1;
 pushing = false;
 push_timer=0;
+is_flammable=false;
