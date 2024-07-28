@@ -65,7 +65,7 @@
           -48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-52,-2147483648,
           -48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-52,-2147483648,-48,0,-4300,
           -2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tileset_DampDungeonWater","path":"tilesets/tileset_DampDungeonWater/tileset_DampDungeonWater.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":100,"SerialiseWidth":100,"TileCompressedData":[
           -6,-2147483648,-3,0,-4,-2147483648,-18,0,-75,-2147483648,-3,0,-4,-2147483648,-18,0,-77,-2147483648,-3,

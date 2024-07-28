@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprite_DampDungeon_full",
   "bboxMode":0,
-  "bbox_bottom":1599,
+  "bbox_bottom":1983,
   "bbox_left":0,
   "bbox_right":2047,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1cb56944-d328-43fc-ae57-d6169423d042","name":"1cb56944-d328-43fc-ae57-d6169423d042","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b6c4d912-0b65-4d57-9607-a269b2c4d046","name":"b6c4d912-0b65-4d57-9607-a269b2c4d046","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2048,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e19210cf-a17e-4f9f-b6ba-a534ac891480","blendMode":0,"displayName":"default","isLocked":false,"name":"e19210cf-a17e-4f9f-b6ba-a534ac891480","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d8e4f264-eba4-4ed2-9807-054a454c5f81","blendMode":0,"displayName":"default","isLocked":false,"name":"d8e4f264-eba4-4ed2-9807-054a454c5f81","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprite_DampDungeon_full",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1cb56944-d328-43fc-ae57-d6169423d042","path":"sprites/sprite_DampDungeon_full/sprite_DampDungeon_full.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35e7138f-5f58-4ddd-a756-dfa082bccc81","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6c4d912-0b65-4d57-9607-a269b2c4d046","path":"sprites/sprite_DampDungeon_full/sprite_DampDungeon_full.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"be169aec-9e14-4cdb-8e12-77667aa03fe5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
