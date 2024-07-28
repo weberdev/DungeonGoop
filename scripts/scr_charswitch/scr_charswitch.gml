@@ -4,11 +4,11 @@ function switch_character() {
 var current_datetime = date_current_datetime();
 
     if(current_datetime> global.swap_cooldown)
-	{if (global.active_character == obj_SlimePC) {
-        global.active_character = obj_RemnantPC;
+	{if (global.active_character == obj_pcSlime) {
+        global.active_character = obj_pcRemnant;
 		
-    } else if (global.active_character == obj_RemnantPC) {
-        global.active_character = obj_SlimePC;
+    } else if (global.active_character == obj_pcRemnant) {
+        global.active_character = obj_pcSlime;
     }
 	global.swap_cooldown = current_datetime;
 	show_debug_message("switch character check in function")

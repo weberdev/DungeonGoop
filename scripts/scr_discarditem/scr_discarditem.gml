@@ -9,31 +9,28 @@
 //QED
 
 function scr_discarditem(xCoord, yCoord, itemName) {
-    if(obj_SlimePC.move_enabled){
+    if(obj_pcSlime.move_enabled){
 	show_debug_message("Discarding item: " + itemName);
     switch(itemName) {
         case "flame":
-            if (object_exists(obj_elemFlame)) {
-                instance_create_depth(xCoord, yCoord, 1, obj_elemFlame);
-            } else {
-                show_debug_message("Error: obj_elemFlame does not exist.");
-            }
+            instance_create_depth(xCoord, yCoord, 1, obj_elemFlame);
             break;
         case "rock":
-            if (object_exists(obj_elemRock)) {
-                show_debug_message("obj_elemRock exists.");
-                instance_create_depth(xCoord, yCoord, 1, obj_elemRock);
-            } else {
-                show_debug_message("Error: obj_elemRock does not exist.");
-            }
+            instance_create_depth(xCoord, yCoord, 1, obj_elemRock);
             break;
         case "water":
-            if (object_exists(obj_elemWater)) {
-                instance_create_depth(xCoord, yCoord, 1, obj_elemWater);
-            } else {
-                show_debug_message("Error: obj_elemWater does not exist.");
-            }
+            instance_create_depth(xCoord, yCoord, 1, obj_elemWater);
             break;
+		case "wind":
+			instance_create_depth(xCoord, yCoord, 1, obj_elemWind);
+			break;
+		case "bone":
+			instance_create_depth(xCoord, yCoord, 1, obj_elemBone);
+			break;
+		case "ice":
+			instance_create_depth(xCoord, yCoord, 1, obj_elemIce);
+			break;
+		
         default:
             show_debug_message("Error: Unknown item type.");
             break;

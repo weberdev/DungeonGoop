@@ -4,12 +4,12 @@ function scr_actionROCK(){
                 if (move_enabled) {
                     move_enabled = false;
                     is_immune_crush = true;
-					obj_SlimePC.sprite_index = sprite_TEMPslimePCrock;
+					obj_pcSlime.sprite_index = sprite_TEMPslimePCrock;
                     show_debug_message("Hardened, can't move");
                 } else {
                     move_enabled = true;
                     is_immune_crush = false;
-					obj_SlimePC.sprite_index = sprite_slimePCStone;
+					obj_pcSlime.sprite_index = sprite_slimePCStone;
                     show_debug_message("Unhardened, can move");
                 }
 }

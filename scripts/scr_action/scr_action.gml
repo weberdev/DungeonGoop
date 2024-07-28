@@ -14,6 +14,9 @@ function scr_slimeAction(itemName) {
             case "water":
 			scr_actionWATER()
 			break;
+			case "wind":
+			scr_actionWIND();
+			break;
             default:
                 show_debug_message("Error: Unknown item type.");
                 break;
@@ -28,7 +31,7 @@ function fire_action(xCoord, yCoord) {
     var instance_found = instance_position(xCoord, yCoord, obj_collidableParent);
     if (instance_found != noone) {
         if (instance_found.is_flammable) {
-            instance_destroy(instance_found);
+            //instance_destroy(instance_found);
         }
     }
 }
