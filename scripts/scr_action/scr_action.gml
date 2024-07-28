@@ -16,6 +16,7 @@ function scr_slimeAction(itemName) {
 			break;
 			case "wind":
 			scr_actionWIND();
+			break;
             default:
                 show_debug_message("Error: Unknown item type.");
                 break;
