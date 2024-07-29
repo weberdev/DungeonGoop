@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_NOEAST",
-    "path":"sprites/sprite_NOEAST/sprite_NOEAST.yy",
+    "name":"sprite_NOWEST",
+    "path":"sprites/sprite_NOWEST/sprite_NOWEST.yy",
   },
   "spriteMaskId":null,
   "visible":true,

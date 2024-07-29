@@ -41,9 +41,9 @@ if (move_enabled) {
         // Check for horizontal movement with collision and directional blocker checking
         if (hMove != 0) {
             if (!place_meeting(x + hMove, y, obj_collidableParent)) {
-                if (hMove > 0 && place_meeting(x + hMove, y, obj_directionalBlockerEast)) {
+                if (hMove > 0 && place_meeting(x + hMove, y, obj_directionalBlockerWest)) {
                     show_debug_message("Can't move right into barrier");
-                } else if (hMove < 0 && place_meeting(x + hMove, y, obj_directionalBlockerWest)) {
+                } else if (hMove < 0 && place_meeting(x + hMove, y, obj_directionalBlockerEast)) {
                     show_debug_message("Can't move left into barrier");
                 } else {
                     moveX = x + hMove;
@@ -55,9 +55,9 @@ if (move_enabled) {
         // Check for vertical movement with collision and directional blocker checking
         if (vMove != 0) {
             if (!place_meeting(x, y + vMove, obj_collidableParent)) {
-                if (vMove > 0 && place_meeting(x, y + vMove, obj_directionalBlockerSouth)) {
+                if (vMove > 0 && place_meeting(x, y + vMove, obj_directionalBlockerNorth)) {
                     show_debug_message("Can't move down into barrier");
-                } else if (vMove < 0 && place_meeting(x, y + vMove, obj_directionalBlockerNorth)) {
+                } else if (vMove < 0 && place_meeting(x, y + vMove, obj_directionalBlockerSouth)) {
                     show_debug_message("Can't move up into barrier");
                 } else {
                     moveY = y + vMove;

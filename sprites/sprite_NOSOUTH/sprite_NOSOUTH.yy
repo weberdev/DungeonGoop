@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprite_NOSOUTH",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":24,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,

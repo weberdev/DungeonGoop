@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_NONORTH",
-    "path":"sprites/sprite_NONORTH/sprite_NONORTH.yy",
+    "name":"sprite_NOSOUTH",
+    "path":"sprites/sprite_NOSOUTH/sprite_NOSOUTH.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
