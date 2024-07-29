@@ -9,3 +9,4 @@ facing_x = x;
 facing_y = y;
 facing_tile_x = 0;
 facing_tile_y = 0;
+move_enabled = true;
