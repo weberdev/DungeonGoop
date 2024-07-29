@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_compactedMist",
-    "path":"sprites/spr_compactedMist/spr_compactedMist.yy",
+    "name":"sprite_compactedMist",
+    "path":"sprites/sprite_compactedMist/sprite_compactedMist.yy",
   },
   "spriteMaskId":null,
   "visible":true,

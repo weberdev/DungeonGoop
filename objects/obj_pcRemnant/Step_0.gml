@@ -1,5 +1,4 @@
-// Step Event for obj_RemnantPC
-
+// Step Event for obj_pcRemnant
 if (!isMoving && global.active_character == obj_pcRemnant) {
     var hMove = 0;
     var vMove = 0;
@@ -46,6 +45,7 @@ if (!isMoving && global.active_character == obj_pcRemnant) {
         // Calculate the coordinates the character is facing
         facing_tile_x = x + (facing_x * tile_size);
         facing_tile_y = y + (facing_y * tile_size);
+        show_debug_message("Facing coordinates: " + string(facing_tile_x) + ", " + string(facing_tile_y));
     }
 } else {
     // Move towards the destination coordinates smoothly
@@ -71,6 +71,3 @@ if (!isMoving && global.active_character == obj_pcRemnant) {
     }
 }
 
-// Debugging facing coordinates
-//Again, commented out in case needed again.
-//show_debug_message("Remnant Facing coordinates: " + string(facing_tile_x) + ", " + string(facing_tile_y));

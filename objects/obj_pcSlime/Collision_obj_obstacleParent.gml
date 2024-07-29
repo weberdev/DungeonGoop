@@ -17,13 +17,11 @@ var item_instance = instance_place(x, y, obj_obstacleParent);
 					scr_youAreDead();
 				}
                 break;
-            case obj_elemWater:
-                sprite_index = sprite_slimePCWater;
-                active_item = "water";
+            case obj_obstacleBrokenBridge:
+                if(other.sturdy == false){
+					scr_youAreDead();
+				}
                 break;
-			case obj_elemWind:
-				sprite_index = sprite_slimePCWind;
-				active_item = "wind";
             default:
                 break;
         }

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gustableLight",
-    "path":"sprites/spr_gustableLight/spr_gustableLight.yy",
+    "name":"sprite_gustableLight",
+    "path":"sprites/sprite_gustableLight/sprite_gustableLight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

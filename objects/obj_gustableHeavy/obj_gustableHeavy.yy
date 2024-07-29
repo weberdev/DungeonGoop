@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gustableHeavy",
-    "path":"sprites/spr_gustableHeavy/spr_gustableHeavy.yy",
+    "name":"sprite_gustableHeavy",
+    "path":"sprites/sprite_gustableHeavy/sprite_gustableHeavy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
