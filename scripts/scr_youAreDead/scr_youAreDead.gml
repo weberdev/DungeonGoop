@@ -3,5 +3,6 @@
 function scr_youAreDead(){
 	//Ideally we'll have more here!
 	show_debug_message("You are dead, please close the game!");
-	game_end();
+	room_restart();
+	//game_end();
 }
