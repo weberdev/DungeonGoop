@@ -20,7 +20,8 @@ if (global.active_character == obj_pcSlime) {
                 
                 // Check if the next tile has a collidable object
                 var next_instance = instance_place(next_tile_x, next_tile_y, obj_collidableParent);
-                if (next_instance == noone || next_instance.object_index == obj_grate) {
+				var other_next_instance = instance_place(next_tile_x, next_tile_y, obj_grateSemiCollider);
+                if ((next_instance == noone && other_next_instance == noone) || next_instance.object_index == obj_grate) {
                     // Move to the next tile
                     x = next_tile_x;
                     y = next_tile_y;
