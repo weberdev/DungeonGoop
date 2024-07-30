@@ -36,11 +36,11 @@ if (is_layer_false_visible) {
 	var instance_cnt = instance_number(obj_button_circle); // Get the total number of instances
 for (var i = 0; i < instance_cnt; i++) {
     var instnce_id = instance_find(obj_button_circle, i); // Find each instance by index
-
     // Now you can access each instance's properties or methods
     with (instnce_id) {
+		image_index = 0;
         down = false;
     }
 }
 	down = true;
- }
+	image_index = 2;}
