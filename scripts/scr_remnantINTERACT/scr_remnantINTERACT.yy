@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script17",
+  "%Name":"scr_remnantINTERACT",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script17",
+  "name":"scr_remnantINTERACT",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
