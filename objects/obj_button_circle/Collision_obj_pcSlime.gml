@@ -1,6 +1,6 @@
 /// @description Button trigger
 // You can write your code in this editor
- if (!down){
+ if (!down && obj_pcSlime.isMoving==false){
 	 // In a script or an event where you want to toggle the layers
 
 // Get the layer IDs
