@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"room_floor1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/room_floor1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -1226,6 +1226,8 @@
     {"name":"inst_29B0DC08","path":"rooms/room_floor1/room_floor1.yy",},
     {"name":"inst_49166B12","path":"rooms/room_floor1/room_floor1.yy",},
     {"name":"inst_5961150A","path":"rooms/room_floor1/room_floor1.yy",},
+    {"name":"inst_28525E15","path":"rooms/room_floor1/room_floor1.yy",},
+    {"name":"inst_2DD43405","path":"rooms/room_floor1/room_floor1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2701,6 +2703,8 @@
         {"$GMRInstance":"v1","%Name":"inst_76F9821B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76F9821B","objectId":{"name":"obj_elemWater","path":"objects/obj_elemWater/obj_elemWater.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":4608.0,},
         {"$GMRInstance":"v1","%Name":"inst_48A3074F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48A3074F","objectId":{"name":"obj_elemWater","path":"objects/obj_elemWater/obj_elemWater.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":5696.0,},
         {"$GMRInstance":"v1","%Name":"inst_3877097F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3877097F","objectId":{"name":"obj_pcRemnant","path":"objects/obj_pcRemnant/obj_pcRemnant.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":5440.0,},
+        {"$GMRInstance":"v1","%Name":"inst_28525E15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28525E15","objectId":{"name":"obj_remnantRender","path":"objects/obj_remnantRender/obj_remnantRender.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3200.0,"y":5696.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2DD43405","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DD43405","objectId":{"name":"obj_music_controller","path":"objects/obj_music_controller/obj_music_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3200.0,"y":5696.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Animations","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Animations","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":100,"SerialiseWidth":100,"TileCompressedData":[
           -7735,-2147483648,-6,0,-94,-2147483648,-7,0,-92,-2147483648,-8,0,-86,-2147483648,1,0,-99,-2147483648,

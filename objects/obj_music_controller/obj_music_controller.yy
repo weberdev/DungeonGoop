@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grateSemiCollider",
-  "eventList":[],
+  "%Name":"obj_music_controller",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_grateSemiCollider",
+  "name":"obj_music_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprite_grateSemiCollider",
-    "path":"sprites/sprite_grateSemiCollider/sprite_grateSemiCollider.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
