@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_remnantTendril",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_interactableParent","path":"objects/obj_interactableParent/obj_interactableParent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_remnantTendril",
   "overriddenProperties":[],
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprite_effectWind",
+    "path":"sprites/sprite_effectWind/sprite_effectWind.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
