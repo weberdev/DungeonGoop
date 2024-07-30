@@ -23,7 +23,8 @@ function scr_setSlimeTraits(activeItem){
 
 			//Elemental affinities
 			is_immune_fire = false;
-			is_immune_crush = false;
+			//This is not changeed because turning to stone would be broken, and was before I fixed it.
+			//is_immune_crush = false;
 			is_immune_all = false;
 			is_immune_ice = false;
 			is_weak_water = false;
