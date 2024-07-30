@@ -109,6 +109,7 @@
     {"id":{"name":"shd_horrifi","path":"shaders/shd_horrifi/shd_horrifi.yy",},},
     {"id":{"name":"snd_ghostTransition","path":"sounds/snd_ghostTransition/snd_ghostTransition.yy",},},
     {"id":{"name":"snd_mainTheme","path":"sounds/snd_mainTheme/snd_mainTheme.yy",},},
+    {"id":{"name":"snd_titleTheme","path":"sounds/snd_titleTheme/snd_titleTheme.yy",},},
     {"id":{"name":"sprite_animated_objects","path":"sprites/sprite_animated_objects/sprite_animated_objects.yy",},},
     {"id":{"name":"sprite_bootle_large","path":"sprites/sprite_bootle_large/sprite_bootle_large.yy",},},
     {"id":{"name":"sprite_bootle","path":"sprites/sprite_bootle/sprite_bootle.yy",},},
