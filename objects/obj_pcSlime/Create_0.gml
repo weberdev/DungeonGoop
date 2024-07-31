@@ -22,7 +22,7 @@ switch(active_item){
 		break;
 	case("water"):
 		sprite_index = sprite_slimePCWater;
-		break:
+		break;
 	case("rock"):
 		sprite_index = sprite_slimePCStone;
 		break;
@@ -43,3 +43,4 @@ is_immune_crush = false;
 is_immune_all = false;
 is_immune_ice = false;
 is_weak_water = false;
+}
