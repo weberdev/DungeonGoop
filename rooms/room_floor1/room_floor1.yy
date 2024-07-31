@@ -3030,8 +3030,8 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":1000,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_pcSlime","path":"objects/obj_pcSlime/obj_pcSlime.yy",},"vborder":1000,"visible":true,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":2752,"yport":0,"yview":1984,},
-    {"hborder":1000,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_pcRemnant","path":"objects/obj_pcRemnant/obj_pcRemnant.yy",},"vborder":1000,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":1500,"yport":0,"yview":5000,},
+    {"hborder":1000,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"obj_pcSlime","path":"objects/obj_pcSlime/obj_pcSlime.yy",},"vborder":1000,"visible":true,"vspeed":-1,"wport":1280,"wview":1280,"xport":0,"xview":2752,"yport":0,"yview":1984,},
+    {"hborder":1000,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"obj_pcRemnant","path":"objects/obj_pcRemnant/obj_pcRemnant.yy",},"vborder":1000,"visible":false,"vspeed":-1,"wport":1280,"wview":1280,"xport":0,"xview":1500,"yport":0,"yview":5000,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
