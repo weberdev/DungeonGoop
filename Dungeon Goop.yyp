@@ -171,6 +171,7 @@
     {"id":{"name":"sprite_redGem","path":"sprites/sprite_redGem/sprite_redGem.yy",},},
     {"id":{"name":"sprite_remnant","path":"sprites/sprite_remnant/sprite_remnant.yy",},},
     {"id":{"name":"sprite_rinseableMud","path":"sprites/sprite_rinseableMud/sprite_rinseableMud.yy",},},
+    {"id":{"name":"sprite_savepoint","path":"sprites/sprite_savepoint/sprite_savepoint.yy",},},
     {"id":{"name":"sprite_slime_entering_down","path":"sprites/sprite_slime_entering_down/sprite_slime_entering_down.yy",},},
     {"id":{"name":"sprite_slime_entering_left","path":"sprites/sprite_slime_entering_left/sprite_slime_entering_left.yy",},},
     {"id":{"name":"sprite_slime_entering_right","path":"sprites/sprite_slime_entering_right/sprite_slime_entering_right.yy",},},
