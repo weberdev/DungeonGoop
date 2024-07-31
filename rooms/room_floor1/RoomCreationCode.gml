@@ -3,3 +3,4 @@ layer_set_visible(layer_get_id("Walls_Temp_True"), false);  // Hide Walls_Temp_T
 instance_activate_layer( layer_get_id("water_puzzle_true"));
 instance_activate_layer(layer_get_id("water_puzzle_false"));
 instance_activate_layer(layer_get_id("water_puzzle_static"));
+

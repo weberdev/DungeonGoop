@@ -11,10 +11,12 @@ if (move_enabled) {
             hMove = -tile_size;
             facing_x = -1;
             facing_y = 0;
+			//facing = west;
         } else if (keyboard_check_pressed(vk_right)) {
             hMove = tile_size;
             facing_x = 1;
             facing_y = 0;
+			//facing = east;
         }
 
         // Check for vertical movement
@@ -22,10 +24,12 @@ if (move_enabled) {
             vMove = -tile_size;
             facing_y = -1;
             facing_x = 0;
+			//facing = north;
         } else if (keyboard_check_pressed(vk_down)) {
             vMove = tile_size;
             facing_y = 1;
             facing_x = 0;
+			//facing = south;
         }
 
         // Calculate facing tile coordinates

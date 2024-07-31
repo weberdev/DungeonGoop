@@ -1,3 +1,4 @@
+
 /// @description Button trigger
 // You can write your code in this editor
  if (!down && obj_pcSlime.isMoving==false) {

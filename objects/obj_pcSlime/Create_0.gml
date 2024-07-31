@@ -1,4 +1,6 @@
 // Create Event for obj_SlimePC
+x = global.respawn_x;
+y = global.respawn_y;
 tile_size = 64;
 isMoving = false;
 moveX = x;
@@ -7,6 +9,7 @@ last_x = x;
 last_y = y;
 moveSpeed = 4;
 active_item = "";
+//facing = east;
 facing_x = 0;
 facing_y = 0;  
 facing_tile_x = 0;
