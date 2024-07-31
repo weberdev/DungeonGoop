@@ -3,8 +3,8 @@
 // You can write your code in this editor
 
 //Coords for starting and respawning slime.
-global.respawn_x = 3136;
-global.respawn_y = 4288;
+global.respawn_x = 2816;
+global.respawn_y = 1984;
 /* Important check locations
 start: 2816, 1984
 Post Boo: 3136, 4288
