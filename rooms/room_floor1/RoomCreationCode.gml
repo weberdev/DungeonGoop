@@ -3,4 +3,5 @@ layer_set_visible(layer_get_id("Walls_Temp_True"), false);  // Hide Walls_Temp_T
 instance_activate_layer( layer_get_id("water_puzzle_true"));
 instance_activate_layer(layer_get_id("water_puzzle_false"));
 instance_activate_layer(layer_get_id("water_puzzle_static"));
+audio_stop_sound(global.music_handle);
 global.music_handle = audio_play_sound(snd_mainTheme, 1, true);
