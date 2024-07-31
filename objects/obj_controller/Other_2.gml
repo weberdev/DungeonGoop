@@ -11,6 +11,7 @@ Post Boo: 3136, 4288
 Respawn 3648, 4352
 Water: 1472, 4160
 */
-
+global.slime_trait = "";
+global.remnant_trait = "";
 
 room_goto_next();

@@ -92,6 +92,7 @@
     {"id":{"name":"obj_pcSlime","path":"objects/obj_pcSlime/obj_pcSlime.yy",},},
     {"id":{"name":"obj_remnantRender","path":"objects/obj_remnantRender/obj_remnantRender.yy",},},
     {"id":{"name":"obj_remnantTendril","path":"objects/obj_remnantTendril/obj_remnantTendril.yy",},},
+    {"id":{"name":"obj_savePoint","path":"objects/obj_savePoint/obj_savePoint.yy",},},
     {"id":{"name":"obj_spiketrap","path":"objects/obj_spiketrap/obj_spiketrap.yy",},},
     {"id":{"name":"obj_switch_horizontal","path":"objects/obj_switch_horizontal/obj_switch_horizontal.yy",},},
     {"id":{"name":"room_controlRoom","path":"rooms/room_controlRoom/room_controlRoom.yy",},},

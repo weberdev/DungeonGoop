@@ -9,6 +9,6 @@ if (timer > 0){
 	timer--;}
 	else{
 		sturdy = false;
-		//sprite_index = sprite_obstacleBrokenBridge;
+		image_index = 0;
 		}
 		
