@@ -36,5 +36,5 @@
     "path":"sprites/sprite_effectWind/sprite_effectWind.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

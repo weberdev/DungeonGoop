@@ -7,29 +7,29 @@ if (move_enabled) {
         var vMove = 0;
 
         // Check for horizontal movement
-        if (keyboard_check_pressed(vk_left)) {
+        if (keyboard_check(vk_left)) {
             hMove = -tile_size;
             facing_x = -1;
             facing_y = 0;
-			//facing = west;
-        } else if (keyboard_check_pressed(vk_right)) {
+            //facing = west;
+        } else if (keyboard_check(vk_right)) {
             hMove = tile_size;
             facing_x = 1;
             facing_y = 0;
-			//facing = east;
+            //facing = east;
         }
 
         // Check for vertical movement
-        if (keyboard_check_pressed(vk_up)) {
+        if (keyboard_check(vk_up)) {
             vMove = -tile_size;
             facing_y = -1;
             facing_x = 0;
-			//facing = north;
-        } else if (keyboard_check_pressed(vk_down)) {
+            //facing = north;
+        } else if (keyboard_check(vk_down)) {
             vMove = tile_size;
             facing_y = 1;
             facing_x = 0;
-			//facing = south;
+            //facing = south;
         }
 
         // Calculate facing tile coordinates
