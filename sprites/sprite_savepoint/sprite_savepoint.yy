@@ -1,28 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"sprite_obstacle_cracked_bridge",
-  "bboxMode":2,
-  "bbox_bottom":63,
-  "bbox_left":64,
-  "bbox_right":191,
-  "bbox_top":0,
+  "%Name":"sprite_savepoint",
+  "bboxMode":0,
+  "bbox_bottom":58,
+  "bbox_left":6,
+  "bbox_right":56,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4e9be5a-9709-4355-9908-f5ce84a1955e","name":"a4e9be5a-9709-4355-9908-f5ce84a1955e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"30d310b3-fadb-481e-bb5a-c52bfa72c0a8","name":"30d310b3-fadb-481e-bb5a-c52bfa72c0a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c2a8ebc5-dde6-4a13-a8dd-097d596c73b3","name":"c2a8ebc5-dde6-4a13-a8dd-097d596c73b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"264b3823-9cfc-4017-adc6-1852475987ae","blendMode":0,"displayName":"default","isLocked":false,"name":"264b3823-9cfc-4017-adc6-1852475987ae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3e9e8331-3187-4eb9-9409-d793ba27d319","blendMode":0,"displayName":"default","isLocked":false,"name":"3e9e8331-3187-4eb9-9409-d793ba27d319","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sprite_obstacle_cracked_bridge",
+  "name":"sprite_savepoint",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sprite_obstacle_cracked_bridge",
+    "%Name":"sprite_savepoint",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -50,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -58,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sprite_obstacle_cracked_bridge",
+    "name":"sprite_savepoint",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -70,11 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4e9be5a-9709-4355-9908-f5ce84a1955e","path":"sprites/sprite_obstacle_cracked_bridge/sprite_obstacle_cracked_bridge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"637fb17a-521e-4414-b989-7b1d3b3d21c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30d310b3-fadb-481e-bb5a-c52bfa72c0a8","path":"sprites/sprite_obstacle_cracked_bridge/sprite_obstacle_cracked_bridge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"651b16aa-3eb6-4b38-b1fc-8760c2ff457e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2a8ebc5-dde6-4a13-a8dd-097d596c73b3","path":"sprites/sprite_savepoint/sprite_savepoint.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"56d80878-fc6d-4b49-9acd-1d3555c2699b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -90,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":64,
 }
