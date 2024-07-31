@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprite_obstacleBrokenBridge",
-    "path":"sprites/sprite_obstacleBrokenBridge/sprite_obstacleBrokenBridge.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
