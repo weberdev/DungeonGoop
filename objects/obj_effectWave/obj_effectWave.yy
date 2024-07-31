@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_effectWave",
-    "path":"sprites/sprite_effectWave/sprite_effectWave.yy",
+    "name":"sprite_effect_Water",
+    "path":"sprites/sprite_effect_Water/sprite_effect_Water.yy",
   },
   "spriteMaskId":null,
   "visible":true,
