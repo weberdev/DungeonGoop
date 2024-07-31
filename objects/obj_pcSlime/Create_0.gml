@@ -16,7 +16,22 @@ facing_tile_x = 0;
 facing_tile_y = 0;
 num_keys = 0;
 move_enabled = true;
-
+switch(active_item){
+	case("flame"):
+		sprite_index = sprite_slimePCFire;
+		break;
+	case("water"):
+		sprite_index = sprite_slimePCWater;
+		break:
+	case("rock"):
+		sprite_index = sprite_slimePCStone;
+		break;
+	case("wind"):
+		sprite_index = sprite_slimePCWind;
+		break;
+	default:
+		sprite_index = sprite_SlimePC;
+		break;
 //Properties of Slime:
 weight = 1;
 is_float = false;
