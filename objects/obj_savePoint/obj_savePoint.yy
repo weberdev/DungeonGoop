@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprite_savepoint",
+    "path":"sprites/sprite_savepoint/sprite_savepoint.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
