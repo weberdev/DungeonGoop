@@ -56,6 +56,6 @@ if (global.active_character == obj_pcSlime) {
 	}
 	show_debug_message("Are we stuck? #5");
 }
-show_debug_message("Are we stuck? #6");
+//show_debug_message("Are we stuck? #6");
 
 
