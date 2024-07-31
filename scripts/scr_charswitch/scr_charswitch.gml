@@ -5,12 +5,15 @@ var current_datetime = date_current_datetime();
 
     if(current_datetime> global.swap_cooldown)
 	{if (global.active_character == obj_pcSlime) {
-        global.active_character = obj_pcRemnant;					
-		audio_play_sound(snd_ghostTransition, .75, false);
+        global.active_character = obj_pcRemnant;
+		audio_stop_sound(snd_mainTheme);
+		audio_play_sound(snd_Remnant_Theme_Option_2, .75, true);
 		
 		
     } else if (global.active_character == obj_pcRemnant) {
         global.active_character = obj_pcSlime;
+		audio_stop_sound(snd_Remnant_Theme_Option_2);
+		audio_play_sound(snd_mainTheme, .75, true);
     }
 	global.swap_cooldown = current_datetime;
 	show_debug_message("switch character check in function")
