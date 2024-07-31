@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_mainTheme",
+  "%Name":"snd_Remnant_Theme_Option_2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":25.91345,
-  "name":"snd_mainTheme",
+  "duration":31.294676,
+  "name":"snd_Remnant_Theme_Option_2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_mainTheme.mp3",
+  "soundFile":"snd_Remnant_Theme_Option_2.mp3",
   "type":0,
-  "volume":0.1,
+  "volume":1.0,
 }
