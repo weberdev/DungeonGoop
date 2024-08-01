@@ -20,16 +20,18 @@ if (move_enabled) {
         }
 
         // Check for vertical movement
-        if (keyboard_check(vk_up)) {
-            vMove = -tile_size;
-            facing_y = -1;
-            facing_x = 0;
-            //facing = north;
-        } else if (keyboard_check(vk_down)) {
-            vMove = tile_size;
-            facing_y = 1;
-            facing_x = 0;
-            //facing = south;
+        if (hMove == 0) {  // Ensure horizontal movement takes precedence
+            if (keyboard_check(vk_up)) {
+                vMove = -tile_size;
+                facing_y = -1;
+                facing_x = 0;
+                //facing = north;
+            } else if (keyboard_check(vk_down)) {
+                vMove = tile_size;
+                facing_y = 1;
+                facing_x = 0;
+                //facing = south;
+            }
         }
 
         // Calculate facing tile coordinates

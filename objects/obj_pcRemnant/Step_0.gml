@@ -11,8 +11,6 @@ if (move_enabled) {
         var hMove = 0;
         var vMove = 0;
 
-        // Check for item pickup (Assumed to be implemented elsewhere)
-
         // Check for horizontal movement
         if (keyboard_check(vk_left)) {
             hMove = -tile_size;
@@ -24,15 +22,17 @@ if (move_enabled) {
             facing_y = 0;
         }
 
-        // Check for vertical movement
-        if (keyboard_check(vk_up)) {
-            vMove = -tile_size;
-            facing_y = -1;
-            facing_x = 0;
-        } else if (keyboard_check(vk_down)) {
-            vMove = tile_size;
-            facing_y = 1;
-            facing_x = 0;
+        // Check for vertical movement, only if no horizontal movement is detected
+        if (hMove == 0) {
+            if (keyboard_check(vk_up)) {
+                vMove = -tile_size;
+                facing_y = -1;
+                facing_x = 0;
+            } else if (keyboard_check(vk_down)) {
+                vMove = tile_size;
+                facing_y = 1;
+                facing_x = 0;
+            }
         }
 
         // Calculate facing tile coordinates
