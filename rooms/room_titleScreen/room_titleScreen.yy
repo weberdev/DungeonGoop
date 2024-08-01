@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"room_titleScreen",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/room_titleScreen/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -17,7 +17,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"on_click","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"room_goto_next",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"text","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"START GAME",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"c_hover","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF40CE3D",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"font","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"font_title",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"font","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resource":{"name":"font_title","path":"fonts/font_title/font_title.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"font_title",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.28864932,"scaleY":0.30130953,"x":640.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_3DF3AE8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DF3AE8E","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title_med","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"propertyId":{"name":"on_click","path":"objects/obj_button_title_med/obj_button_title_med.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"game_end",},
