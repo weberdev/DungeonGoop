@@ -6,10 +6,10 @@ show_debug_message("Moved to (" + string(x) + ", " + string(y) + ").");
 move_enabled = false;
 // Determine the opposite direction for the "entering" animation
 var opposite_dirchoice;
-if (global.facing_x == 1) opposite_dirchoice = "left";
-else if (global.facing_x == -1) opposite_dirchoice = "right";
-else if (global.facing_y == 1) opposite_dirchoice = "up";
-else if (global.facing_y == -1) opposite_dirchoice = "down";
+if (facing_x == 1) opposite_dirchoice = "left";
+else if (facing_x == -1) opposite_dirchoice = "right";
+else if (facing_y == 1) opposite_dirchoice = "up";
+else if (facing_y == -1) opposite_dirchoice = "down";
 
 // Play the "entering" animation
 sprite_index = asset_get_index("sprite_slime_entering_" + opposite_dirchoice);

@@ -119,6 +119,7 @@
     {"id":{"name":"scr_manifestWIND","path":"scripts/scr_manifestWIND/scr_manifestWIND.yy",},},
     {"id":{"name":"scr_remnantINTERACT","path":"scripts/scr_remnantINTERACT/scr_remnantINTERACT.yy",},},
     {"id":{"name":"scr_setSlimeTraits","path":"scripts/scr_setSlimeTraits/scr_setSlimeTraits.yy",},},
+    {"id":{"name":"scr_squeeze","path":"scripts/scr_squeeze/scr_squeeze.yy",},},
     {"id":{"name":"scr_youAreDead","path":"scripts/scr_youAreDead/scr_youAreDead.yy",},},
     {"id":{"name":"shd_horrifi","path":"shaders/shd_horrifi/shd_horrifi.yy",},},
     {"id":{"name":"snd_ghostTransition","path":"sounds/snd_ghostTransition/snd_ghostTransition.yy",},},
