@@ -5,6 +5,7 @@
 //Coords for starting and respawning slime.
 global.respawn_x = 2816;
 global.respawn_y = 1984;
+global.canJumpToSlime = false;
 /* Important check locations
 start: 2816, 1984
 Post Boo: 3136, 4288

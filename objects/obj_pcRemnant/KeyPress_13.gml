@@ -1,6 +1,6 @@
 /// Jump to Slime
 
-
+if(global.canJumpToSlime){
 // You can write your code in this editor
 x = obj_pcSlime.x;
 y = obj_pcSlime.y;
@@ -15,3 +15,4 @@ facing_x = 0;
 facing_y = 0;  
 facing_tile_x = 0;
 facing_tile_y = 0;
+}
