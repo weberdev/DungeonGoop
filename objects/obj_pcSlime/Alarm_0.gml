@@ -2,6 +2,8 @@
 // Move to the final tile position
 x = global.final_tile_x;
 y = global.final_tile_y;
+facing_x = x;
+
 show_debug_message("Moved to (" + string(x) + ", " + string(y) + ").");
 move_enabled = false;
 // Determine the opposite direction for the "entering" animation
