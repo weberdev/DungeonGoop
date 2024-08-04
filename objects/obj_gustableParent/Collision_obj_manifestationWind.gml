@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-pushing = false;
-weight = 1000;
-lightened = false;
+if(!lightened){
+	weight -=2;
+	lightened = true;
+}

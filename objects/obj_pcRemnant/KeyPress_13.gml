@@ -1,4 +1,4 @@
-/// Jump to Slime
+// Jump to Slime
 
 if(global.canJumpToSlime){
 // You can write your code in this editor
