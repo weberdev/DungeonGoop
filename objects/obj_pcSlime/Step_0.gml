@@ -1,4 +1,4 @@
-// Step Event for obj_SlimePC
+ // Step Event for obj_SlimePC
 scr_setSlimeTraits(obj_pcSlime.active_item);
 
 if (move_enabled) {

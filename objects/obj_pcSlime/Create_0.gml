@@ -1,6 +1,7 @@
-// Create Event for obj_SlimePC
+ // Create Event for obj_SlimePC
 x = global.respawn_x;
 y = global.respawn_y;
+show_debug_message("Slime trait: " + global.slime_trait)
 active_item = global.slime_trait;
 tile_size = 64;
 isMoving = false;
