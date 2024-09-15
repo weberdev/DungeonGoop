@@ -6,12 +6,12 @@
   "name":"obj_collidableWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"General",
+    "path":"folders/Objects/Colliders/General.yy",
   },
   "parentObjectId":{
-    "name":"obj_collidableParent",
-    "path":"objects/obj_collidableParent/obj_collidableParent.yy",
+    "name":"obj_collidableAll",
+    "path":"objects/obj_collidableAll/obj_collidableAll.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

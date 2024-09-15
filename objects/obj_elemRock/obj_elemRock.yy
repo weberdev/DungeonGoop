@@ -6,8 +6,8 @@
   "name":"obj_elemRock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Elements",
+    "path":"folders/Objects/Elements.yy",
   },
   "parentObjectId":{
     "name":"obj_itemParent",

@@ -6,8 +6,8 @@
   "name":"obj_directionalBlockerEast",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Directional",
+    "path":"folders/Objects/Colliders/Directional.yy",
   },
   "parentObjectId":{
     "name":"obj_directionalBlockerParent",

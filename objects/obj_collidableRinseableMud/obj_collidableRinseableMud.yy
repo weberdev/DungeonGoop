@@ -9,8 +9,8 @@
   "name":"obj_collidableRinseableMud",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Colliders/Interactables.yy",
   },
   "parentObjectId":{
     "name":"obj_collidableParent",

@@ -1,6 +1,8 @@
 // Create Event
 x = global.respawn_x;
 y = global.respawn_y;
+last_x = x;
+last_y = y;
 tile_size = 64;  // Size of each tile
 isMoving = false;  // Initialize as not moving
 moveX = x;  // Set initial destination to current position

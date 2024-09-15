@@ -8,8 +8,8 @@
   "name":"obj_collidableParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"General",
+    "path":"folders/Objects/Colliders/General.yy",
   },
   "parentObjectId":null,
   "persistent":false,

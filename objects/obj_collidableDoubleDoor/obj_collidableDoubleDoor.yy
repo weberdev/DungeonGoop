@@ -8,8 +8,8 @@
   "name":"obj_collidableDoubleDoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Visible",
+    "path":"folders/Objects/Colliders/Visible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
